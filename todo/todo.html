@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+    
+    <link rel="stylesheet" href="todo.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="heading">
+        <img src="pngwing.com (4).png">
+        <h1>My Todo List</h1>
+    </div>
+    <input type="text" id="addItem" placeholder="Enter The Items">
+    <input type="button" value="add item" onclick="addTask()" class="add">
+    <input type="button" value="delete item" onclick="deleteTask()" class="delete">
+
+    <div class="page">
+       
+           <!-- <table id="InfoTable"> -->
+                <ol id="list"></ol>
+            <!-- </table> -->
+       </form>
+    </div>
+
+    <script src="todo.js"></script>
+</body>
+
+</html>

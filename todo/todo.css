@@ -1,0 +1,77 @@
+.heading{
+    text-align: center;
+    color: black;
+   
+    
+}
+#addItem{
+    width:800px ;
+height: 60px;
+border-radius: 10px;
+border: none;
+box-shadow: 0 0 10px gray;
+}
+body{
+    font-family:Poppins;
+    background-color: white;
+    }
+img{
+    height: 100px;
+    width: 100px;
+}
+.add{
+    background-color: green;
+    border:none;
+    padding:5px;
+    margin:2px;
+    cursor: pointer;
+    box-shadow: 0 0 10px gray;
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    margin-left: 40px;
+
+    }
+
+.delete{
+    background-color: red;
+    border:none;
+    padding:5px;
+    margin:2px;
+    cursor: pointer;
+    box-shadow: 0 0 10px gray;
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+   
+}
+input::placeholder{
+    font-size: 16px;
+}
+input[type=text]
+{
+    padding-left: 20px;
+    font-size: 20px;
+    margin-left: 120px;
+}
+li{
+    font-size: 20px;
+    
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.page{
+    width: 60%;
+    height: 500px;
+    border: none;
+    margin-left: 200px;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+    padding-top: 50px;
+}
